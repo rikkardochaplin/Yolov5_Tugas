@@ -1,0 +1,13 @@
+train: ../datasets/who/train/images
+val: ../datasets/who/valid/images
+test: ../datasets/who/test/images
+
+nc: 3
+names: ['head', 'helmet', 'person']
+
+roboflow:
+  workspace: rikkardochaplin-vym50
+  project: hard-hat-sample-or6oi
+  version: 3
+  license: Public Domain
+  url: https://app.roboflow.com/rikkardochaplin-vym50/hard-hat-sample-or6oi/3
